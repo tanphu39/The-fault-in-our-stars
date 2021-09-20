@@ -1,0 +1,126 @@
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #8052ec, #d161ff);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 50%;
+  max-height: 400px;
+  max-width: 500px;
+}
+
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-weight: 2000;
+}
+
+h2 {
+  word-wrap: break-word;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+#answer {
+  background-color: #8052ec;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  margin: 0 20px 10px 20px;
+}
+
+#answer:hover {
+  cursor: pointer;
+  outline: none;
+  background-color: #d161ff;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40%;
+  min-width: 450px;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 30px 40px;
+}
+
+.titleBox {
+  position: relative;
+  background-color: #ffffff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+input {
+  width: 70%;
+  height: 45px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  padding: 12px;
+  color: #111;
+  font-weight: 500;
+  position: relative;
+  border-radius: 10px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #8052ec;
+}
+
+button {
+  position: relative;
+  float: right;
+  width: 20%;
+  height: 75px;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #8052ec;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.answerBox {
+  word-wrap: break-word;
+  background-color: #ffffff;
+  padding: 10px 0 0 0;
+  margin-top: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */
